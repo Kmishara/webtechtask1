@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="uber.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="left">
+        <h3><img height="35px" src="./download.png" alt="" /></h3>
+        <h3 class="hide" style="text-align: center">Ride</h3>
+        <h3 class="hide" style="text-align: center">Drive</h3>
+        <h3 class="hide" id="bh" style="text-align: center">Business</h3>
+        <select class="hide" name="" id="dropdown">
+          <option value="">About us</option>
+          <option value="">explore</option>
+          <option value="">careers</option>
+          <option value="">blog</option>
+        </select>
+      </div>
+      <div class="right">
+        
+        <h3 id="svg-4">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z"
+              fill="currentColor"
+            ></path></svg>En</h3>
+        <h3 class="rhide">Help</h3>
+        <h3>Log in</h3>
+        <button id="sign">Sign Up</button>
+        <div class="menu-icon">&#9776;</div>
+      </div>
+    </div>
+    <div id="main">
+      <div class="nav-bar">
+        <div class="mleft">
+          <h3>Ride</h3>
+        </div>
+        <div class="mright">
+          <h3>Request a ride</h3>
+          <h3>Reserve a ride</h3>
+          <h3>See a price</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cleft">
+          <h1>
+            Request a ride for <br />
+            now or later
+          </h1>
+          <h4>
+            Up to 50% off your first 5 Uber rides. T&Cs apply.* <br />
+            *Valid within 15 days of signup.
+          </h4>
+          <div class="in">
+            <div class="line"></div>
+            <svg
+              width="20"
+              id="svg-1"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              data-baseweb="icon"
+            >
+              <title>search</title>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm5-2a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <input type="text" placeholder="Enter a location" />
+            <svg
+              width="1em"
+              height="1em"
+              id="svg-3"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="pe-location-fetch css-bOZeEP"
+              role="button"
+              tabindex="0"
+            >
+              <title>Navigate right up</title>
+              <path
+                d="M10.5 13.5.5 11 21 3l-8 20.5-2.5-10Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <svg
+              width="20"
+              height="20"
+              id="svg-2"
+              viewBox="0 0 24 24"
+              fill="none"
+              data-baseweb="icon"
+            >
+              <title>search</title>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M14 10h-4v4h4v-4ZM7 7v10h10V7H7Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <input type="text" placeholder="Enter destination" />
+            <div class="button">
+              <button style="background-color: black; color: white">
+                See price
+              </button>
+              <button class="btn-btn" style="background-color: #e5e5e5; color: black">
+                Schedule for later
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img
+            id="rrighthide"
+            src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy80MmEyOTE0Ny1lMDQzLTQyZjktODU0NC1lY2ZmZmUwNTMyZTkucG5n"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div id="sug">
+      <h1>Suggestion</h1>
+      <div class="top">
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Ride</h3>
+            <p>Go anywhere with uber.Request a ride,hop in, and go.</p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Reserve</h3>
+            <p>
+              Reserve your ride in advance so you can relax on the day of your
+              trip.
+            </p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Intercity</h3>
+            <p>
+              Get convenient, affordable outstation cabs anytime at your door.
+            </p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Shuttle</h3>
+            <p>
+              Lower-cost shared rides on professionally driven buses and vans.
+            </p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Courier</h3>
+            <p>Uber makes same-day item delivery easier than ever.</p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="stcontainer">
+          <div class="stcl">
+            <h3>Rentals</h3>
+            <p>Request a trip for a block of time and make multiple stops.</p>
+            <button>Details</button>
+          </div>
+          <div class="stcr">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfdgk7MPBvl0QW0pH2E3WeC0mN-9mpW6NIg&s"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 id="con3">Plan for later</h1>
+    <div id="plan">
+      <div class="pleft">
+        <div class="plc">
+          <h2>
+            Get your ride right with <br />
+            Uber Reserve
+          </h2>
+          <h3>Choose date and time</h3>
+          <div class="formb">
+            <div class="date-conatiner">
+              <label for="date">Date</label>
+              <br />
+              <input type="date" id="date" />
+            </div>
+            <div class="form-in2">
+              <label for="time">Time</label>
+              <br />
+              <input type="time" name="time" id="time" />
+            </div>
+          </div>
+          <button>Next</button>
+        </div>
+      </div>
+      <div class="pright">
+        <h1>Benefits</h1>
+        <div class="pright-1">
+          <img
+            src="https://tb-static.uber.com/prod/udam-assets/e12eddee-f082-49f7-a5fc-22c17977de50.svg"
+            alt=""
+          />
+          <p>Choose your exact pickup time up to 90 days in advance.</p>
+        </div>
+        <hr />
+        <div class="pright-1">
+          <img
+            src="https://tb-static.uber.com/prod/udam-assets/30f5ecd4-8ccf-44d0-9976-2833f69df8a9.svg"
+            alt=""
+          />
+          <p>Extra wait time included to meet your ride.</p>
+        </div>
+        <hr />
+        <div class="pright-1">
+          <img
+            src="https://tb-static.uber.com/prod/udam-assets/45ebda59-6a0d-41e3-a924-0dbbce078029.svg"
+            alt=""
+          />
+          <p>Cancel at no charge up to 60 mintues in advance.</p>
+        </div>
+        <hr />
+
+        <button>See terms</button>
+      </div>
+    </div>
+    <h1 id="h-4">Use the Uber app to help you travel your way</h1>
+    <div id="image">
+      <div class="image-container">
+        <img
+          src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy81NGY2MDE2MS1jZjZiLTQ0MDEtYTMwOS04YmIxOTZjMDAxNGMuanBn"
+          alt=""
+        />
+        <h3>Ride Options</h3>
+        <p>
+          There's more than one way to move with Uber, no matter where you are
+          or where you're headed next.
+        </p>
+        <button>Search ride options</button>
+      </div>
+      <div class="image-container">
+        <img
+          style="margin-top: 30px"
+          src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9mOWJhMjdjNC02NjVjLTRjY2EtODE2MS05ZTNmODdmNDk5OTQucG5n"
+          alt=""
+        />
+        <h3>700+ airport</h3>
+        <p>
+          You can request a ride to and from most major airports. Schedule a
+          ride to the airport for one less thing to worry about.
+        </p>
+        <button id="btn-air">Search airports</button>
+      </div>
+      <div class="image-container">
+        <img
+          src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9iOGMzOWRlMC02ZTEzLTQ4NWItYmE0NS02NjUxMTE3MGM2MmEuanBn"
+          alt=""
+        />
+        <h3>15,000+ cities</h3>
+        <p>
+          The app is available in thousands of cities worldwide, so you can
+          request a ride even when you're far from home.
+        </p>
+        <button>Search Cities</button>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer-top">
+        <h1>Uber</h1>
+        <h2>Visit help center</h2>
+      </div>
+      <div class="footer-btm">
+        <div class="f-1">
+          <h1>Comapny</h1>
+          <ul>
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Carrer</li>
+          </ul>
+        </div>
+        <div class="f-1">
+          <h1>Products</h1>
+          <ul>
+            <li>Ride</li>
+            <li>Drive</li>
+            <li>Eat</li>
+          </ul>
+        </div>
+        <div class="f-1">
+          <h1>Travel</h1>
+          <ul>
+            <li>Reserve</li>
+            <li>Airports</li>
+            <li>Cities</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
